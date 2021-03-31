@@ -11,7 +11,7 @@ public class CalculatorTest {
 	public void deveriaSomarDoisValoresPassados() {
 		int valora = 2;
 		int valorb = 2;
-		int soma = 0;
+		int soma = 1;
 		
 		Calculator calc = new CalculatorImpl();
 		soma = calc.sum(valora, valorb);
